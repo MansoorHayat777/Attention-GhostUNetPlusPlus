@@ -1,16 +1,65 @@
 # Attention Ghost UNet++: Segmentation of Adipose Tissue and Liver in CT Images
 
-This repository provides the implementation of **Attention Ghost UNet++**, a novel deep learning architecture designed for the segmentation of subcutaneous adipose tissue (SAT), visceral adipose tissue (VAT), and liver regions in computed tomography (CT) images. By incorporating Channel, Spatial, and Depth Attention mechanisms into the Ghost bottleneck layers, this model significantly improves segmentation accuracy while maintaining computational efficiency.
+## Overview
+
+This repository contains the implementation of **Attention GhostUNet++**, a novel architecture for medical image segmentation. The model leverages advanced attention mechanisms and ghost bottleneck structures for efficient feature extraction and precise segmentation.
+
+### Model Architecture
+![Model Architecture](Model.jpeg)
+
+The architecture incorporates:
+- **Attention Ghost Modules**: Combining channel, spatial, and depth attention for enhanced feature learning.
+- **Ghost Bottlenecks**: Efficient feature extraction using lightweight operations.
+- **Skip Connections**: Preserving spatial information across layers.
+
+### Results
+![Results](Result.jpeg)
+
+The above results demonstrate the segmentation performance of the model on **SAT**, **VAT**, and **Liver** datasets. Metrics such as mask difference and overlay predictions highlight its accuracy and robustness.
 
 ---
 
-## Features
+## Notebooks
 
-- **Innovative Architecture**: Attention Ghost UNet++ integrates advanced attention mechanisms to enhance feature refinement and contextual understanding.
-- **State-of-the-Art Results**: Outperforms baseline models such as UNet, UNet++, and GhostUNet in SAT, VAT, and liver segmentation tasks.
-- **Comprehensive Implementation**: Includes Jupyter notebooks for training, evaluation, and visualizing results.
-- **Visualization**: Provides visual comparisons of segmentation outputs, highlighting model performance.
+The following Jupyter notebooks are included:
+
+1. **`Liver_Segm_Attention GhostUNeT++.ipynb`**: Demonstrates the segmentation pipeline for liver CT images.
+2. **`SAT Attention GhostUNeT++.ipynb`**: Implements SAT segmentation.
+3. **`VAT_Segm_Attention GhostUNeT++.ipynb`**: Implements VAT segmentation.
+
+### Steps to Run the Notebooks
+
+1. Clone this repository and navigate to the directory:
+   ```bash
+   git clone https://github.com/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Open the desired notebook and execute cells in sequence:
+   ```bash
+   jupyter notebook
+   ```
 
 ---
 
-## Repository Structure
+## Pre-trained Model
+
+The pre-trained model will be made available after the associated research paper is published. Currently, the paper is under review.
+
+---
+
+### Citation
+
+If you use this repository or find it helpful, please cite our work once the paper is published.
+
+---
+
+### License
+
+This repository is open for academic and research purposes. For commercial use, please contact the authors.
+
