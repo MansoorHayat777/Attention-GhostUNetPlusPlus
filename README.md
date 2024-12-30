@@ -31,16 +31,10 @@ The following Jupyter notebooks are included:
 
 1. Clone this repository and navigate to the directory:
    ```bash
-   git clone https://github.com/MansoorHayat777/Attention-GhostUNetPlusPlus/tree/main
-   cd your-repo-name
+   git clone https://github.com/MansoorHayat777/Attention-GhostUNetPlusPlus/
    ```
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Open the desired notebook and execute cells in sequence:
+2. Open the desired notebook and execute cells in sequence:
    ```bash
    jupyter notebook
    ```
