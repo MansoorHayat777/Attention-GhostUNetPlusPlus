@@ -55,11 +55,5 @@ The pre-trained model will be made available after the associated research paper
 
 ### Citation
 
-If you use this repository or find it helpful, please cite our work once the paper is published.
-
----
-
-### License
-
-This repository is open for academic and research purposes. For commercial use, please contact the authors.
+Will be added later
 
