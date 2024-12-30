@@ -31,7 +31,7 @@ The following Jupyter notebooks are included:
 
 1. Clone this repository and navigate to the directory:
    ```bash
-   git clone https://github.com/your-repo-name.git
+   git clone https://github.com/MansoorHayat777/Attention-GhostUNetPlusPlus/tree/main
    cd your-repo-name
    ```
 
