@@ -41,7 +41,7 @@ The following Jupyter notebooks are included:
 ### Datasets
 
 Download the datasets from the following links:
-- **Abdominal Adipose Tissue CT Image Dataset (AATTCT-IDS) **: [Link](https://figshare.com/articles/dataset/AATTCT-IDS/23807256)
+- **Abdominal Adipose Tissue CT Image Dataset (AATTCT-IDS)**: [Link](https://figshare.com/articles/dataset/AATTCT-IDS/23807256)
 - **Liver Tumor Segmentation Benchmark (LiTS)**: [Link](https://competitions.codalab.org/competitions/17094)
 ---
 
